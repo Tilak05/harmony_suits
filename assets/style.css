@@ -1,0 +1,609 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+
+.info{
+    /* display: flex; */
+    text-align: end;
+    padding: 5px;
+}
+.info a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+.logo-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    align-items: center;
+}
+
+
+.image1{
+    flex: 1;
+    text-align: center;
+    margin-left: 15%;
+}
+.button-div1{
+    text-align: end;
+    width: max-content;
+    height: max-content;
+    position: sticky;
+    top: 10px;
+}
+
+.button1{
+    border: none;
+    background-color: #C18D58;
+    width: 160px;
+    height: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    line-height: 1.2em;
+    letter-spacing: 0.65px;
+    fill: #191E31;
+    color: #191E31;
+    background-color: #C18D58;
+    border-radius: 5px;
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: 0;*/
+} 
+
+.button1:hover{
+    color: #ffff;
+    background-color: #191E31;
+    transition: all 0.25s ease-in-out;
+}
+.large_menu ul{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    gap: 15px;
+    flex-flow: wrap;
+    
+}
+
+.large_menu ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 35px;
+    position: relative;
+    width: max-content;
+    padding-bottom: 10px;
+}
+
+.large_menu ul li a:hover{
+    color: #F3B16A;
+    transition: all 0.35s;
+}
+
+.large_menu ul li a::before{
+    content: '';
+    background-color: #F3B16A;
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    transition: all 0.3s;
+}
+
+.large_menu ul li a:hover::before{
+    width: 100%;
+}
+
+.intro-video{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+.intro-video video{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.body-matter1{
+    display: flex;
+}
+
+/* .bm1-div2{
+    border: 1px solid;
+} */
+
+.bm1-div2 img{
+    width: 600px;
+    height: 500px;
+    margin-top: 10px;
+}
+
+.bm1-div1 h1{
+    color: #000000;
+    font-family: "Times New Roman", Sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+}
+
+.bm1-sub-heading{
+    color: #000000;
+    font-family: "Times New Roman", Sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+}
+
+.bm1-para1{
+    color: #000000;
+    font-family: "Times New Roman", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.025em;
+    letter-spacing: 0.01em;
+}
+
+.button2{
+    font-family: "Source Sans Pro", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    background-color: #21253E;
+    border-radius: 0px 0px 0px 0px;
+    padding: 15px 50px 15px 50px;
+    color: #ffff;
+    border: none;
+    margin-top: 20px;
+}
+
+.button2:hover{
+    background-color: #F3B16A;
+    transform: all 3.0s;
+}
+
+.icons-heading{
+    text-align: center;
+}
+.icons-heading h1{
+    color: #212540;
+    font-family: "Times New Roman", Sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase
+}
+
+.promotion-image{
+    width: 100%;
+    height: 200px;
+}
+
+.card{
+    width: 282px;
+    height: max-content;
+    margin: 10px;
+    border: none;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.promotions-container{
+    margin-top: 110px;
+    background-color: rgb(233, 233, 233);
+}
+
+.promotions-container{
+    margin-top: 40px;
+}
+
+.promotion-heading h2{
+    text-align: center;
+    color: #212540;
+    font-family: "Times New Roman", Sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+
+.card h5{
+    text-align: center;
+    color: #212540;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.promotion-button{
+    /* margin-left: 22%; */
+    /* margin-bottom: 40px; */
+    /* transform: translate(35%); */
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border: 2px solid;
+    width: max-content;
+    padding: 10px 50px;
+}
+
+.promotion-button a{
+    text-decoration: none;
+    color: #191E31;
+    font-weight: 600;
+}
+
+.promotion-button:hover{
+    border:2px solid #D9A168;
+    transition: all 0.3s;
+}
+
+.dif-heading{
+    text-align: center;
+    color: #212540;
+    font-family: "Times New Roman", Sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+
+.dif-img-div img{
+    width: 100%;
+    height: 450px;
+    margin-bottom: 100px;
+}
+
+.bottom1{
+    display: flex;
+}
+
+.bottom-image1 img{
+    width: 550px;
+    height: 400px;
+    margin-left: 20px;
+}
+
+.bottom-para1 h1{
+    /* text-align: center; */
+    color: #212540;
+    font-family: "Times New Roman", Sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 90px;
+}
+.bottom1 h1{
+    color: #212540;
+    font-family: "Times New Roman", Sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    /* padding-top: 0px; */
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.bottom-para1 p{
+    color: #000000;
+    font-family: "Times New Roman", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.025em;
+    letter-spacing: 0.01em;
+    /* text-align: center; */
+    /* margin-left: 90px;
+    margin-right: 60px; */
+    padding-bottom: 10px;
+}
+
+.bottom-image2 img{
+    width: 550px;
+    height: 400px;
+}
+
+.bottom-image2{
+    width: max-content;
+}
+
+.bottom2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+
+.bottom-para2 h1{
+    color: #212540;
+    font-family: "Times New Roman", Sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.bottom2 h1{
+    color: #212540;
+    font-family: "Times New Roman", Sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+.bottom-para2 p{
+    color: #000000;
+    font-family: "Times New Roman", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.025em;
+    letter-spacing: 0.01em;
+    /* text-align: center; */
+    /* margin-left: 90px;
+    margin-right: 60px; */
+    padding-bottom: 10px;
+}
+footer{
+    position: relative;
+    /* padding-top: 20px; */
+}
+
+.footer{
+    background-color: #000000;
+    /* color: #ffff; */
+    margin-bottom: 0;
+    height: 110px;
+    position: relative;
+}
+
+.footer p {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Source Sans Pro", Sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* footer::before{
+    content: '';
+    background-color: #00ff0dc7;
+    position: absolute;
+    bottom: 1;
+    height: 3px;
+    width: 100%;
+} */
+
+/* room and suits styling */
+.room-div{
+    display: flex;
+    margin-top: 5%;
+}
+
+.room-div1 img{
+    width: 450px;
+    height: 300px;
+    text-align: start;
+}
+
+.room-div1{
+    width: 50%;
+    order: 2;
+}
+
+.room-div2{
+    width: 50%;
+}
+
+.room-div2 h1{
+    color: #000000;
+    font-family: "Times New Roman", Sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 0 10%;
+}
+.room-div2 p{
+    color: #000000;
+    font-family: "Times New Roman", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5%;
+    padding: 0 10%;
+}
+.constant-style{
+    position: relative;
+    color: #F3B16A;
+}
+
+.constant-style::before{
+    content: '';
+    background-color: #F3B16A;
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+}
+.clock{
+    position: relative;
+    margin: 0 9%;
+    margin-top: 5%;
+    /* border: 1px solid; */
+    width: 250px;
+}
+
+.collapse-div li label{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #000000;
+    font-family: "Times New Roman", Sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    content: initial;
+}
+
+label::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f103";
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+.collapse-div .content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    font-family: "Times New Roman", Sans-serif;
+    transition: all 0.5s;
+}
+
+.collapse-div input[type="checkbox"]:checked + label + .content{
+    max-height: max-content;
+    padding: 10px 10px 20px;
+}
+
+.collapse-div input[type="checkbox"]:checked + label::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f102";
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.collapse-button{
+    padding: 5px 15px;
+    border-radius: 2px;
+    border: none;
+    background-color: #21253E;
+    color: #FFFFFF;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5%;
+}
+
+.collapse-button:hover{
+    background-color: #F3B16A;
+    transition: all 0.3s;
+}
+
+.left-div img{
+    width: 500px;
+    height: 300px;
+}
+
+.rooms-heading{
+    text-align: center;
+    margin: 30px 0;
+    font-family: "Times New Roman", Sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.right-div img{
+    width: 500px;
+    height: 300px;
+}
+.room-row1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: max-content;
+}
+.room-row1 h3{
+    color: #000000;
+    font-family: "Times New Roman", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 10%;
+}
+
+.right-div p{
+    column-gap: 0px;
+    text-align: left;
+    color: #000000;
+    font-family: "Times New Roman", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    flex-flow: wrap;
+}
+
+.left-div p{
+    column-gap: 0px;
+    text-align: left;
+    color: #000000;
+    font-family: "Times New Roman", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.room-row1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: max-content;
+    gap: 10%;
+}
+
+.room-row1{
+    padding-bottom: 40px;
+}
+
+.row-button{
+    padding: 5px 30px;
+    background-color: #21253E;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: 300px;
+    position: relative;
+    right: 31%;
+}
+
+.row-button:hover{
+    background-color: #F3B16A;
+    transition: all 0.3s;
+}
