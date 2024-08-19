@@ -7,7 +7,6 @@
 }
 
 
-
 .info{
     /* display: flex; */
     text-align: end;
@@ -157,6 +156,7 @@
     line-height: 28px;
     letter-spacing: 0.025em;
     letter-spacing: 0.01em;
+    text-align: justify;
 }
 
 .button2{
@@ -322,6 +322,7 @@
     /* margin-left: 90px;
     margin-right: 60px; */
     padding-bottom: 10px;
+    text-align: justify;
 }
 
 .bottom-image2 img{
@@ -337,6 +338,7 @@
     display: flex;
     flex-direction: row;
     margin-bottom: 100px;
+    margin-top: 30px;
 }
 
 
@@ -367,6 +369,7 @@
     line-height: 28px;
     letter-spacing: 0.025em;
     letter-spacing: 0.01em;
+    text-align: justify;
     /* text-align: center; */
     /* margin-left: 90px;
     margin-right: 60px; */
@@ -411,7 +414,6 @@ footer{
 .room-div1 img{
     width: 450px;
     height: 300px;
-    text-align: start;
 }
 
 .room-div1{
@@ -438,6 +440,7 @@ footer{
     font-weight: 400;
     margin-top: 5%;
     padding: 0 10%;
+    text-align: justify;
 }
 .constant-style{
     position: relative;
