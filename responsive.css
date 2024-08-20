@@ -145,6 +145,10 @@
     .collapse-div li label{
         font-size: 21px;
     }
+    /* responsive for group sales page */
+    .group-image-small{
+        display: none;
+    }
 }
 
 @media (min-width:430px) and (max-width:769px) {
@@ -299,6 +303,28 @@
     .collapse-div li label{
         font-size: 18px;
     }
+
+    /* responsive for group sales */
+    .group-images{
+        display: none;
+    }
+    .group-content{
+        text-align: center;
+    }
+
+    .form-submit{
+        margin: 0 auto;
+    }
+    .group-form-matter p{
+        margin-right: 0;
+    }
+    .group-input,select{
+        margin: 0 auto;
+    }
+    .group-form select{
+        margin: 0 auto;
+    }
+
 }
 
 @media (min-width:375px) and (max-width:429px){
@@ -456,6 +482,35 @@
     .collapse-div li label{
         font-size: 18px;
     }
+    /* responsive for group sales */
+    .group-images{
+        display: none;
+    }
+    .group-image-small img{
+        width: 350px;
+        height: 250px;
+    }
+    .group-content{
+        text-align: center;
+    }
+
+    .form-submit{
+        margin: 0 auto;
+    }
+    .group-form-matter p{
+        margin-right: 0;
+    }
+    .group-input{
+        margin: 0 auto;
+        font-size: 18px;
+    }
+    .group-form select{
+        margin: 0 auto;
+        font-size: 18px;
+    }
+    .form-labels{
+        font-size: 18px;
+    }
 }
 
 @media (min-width:300px) and (max-width:375px) {
@@ -524,6 +579,35 @@
     }
     .footer p{
         font-size: 10px;
+    }
+    /* responsive for group sales */
+    .group-images{
+        display: none;
+    }
+    .group-image-small img{
+        width: 280px;
+        height: 200px;
+    }
+    .group-content{
+        text-align: center;
+    }
+
+    .form-submit{
+        margin: 0 auto;
+    }
+    .group-form-matter p{
+        margin-right: 0;
+    }
+    .group-input{
+        margin: 0 auto;
+        font-size: 18px;
+    }
+    .group-form select{
+        margin: 0 auto;
+        font-size: 18px;
+    }
+    .form-labels{
+        font-size: 18px;
     }
 }
 @media (max-width:321px){
@@ -669,6 +753,10 @@
     .right-div{
         width: 90%;
     }
+    /* responsive for group sales page */
+    .group-image-small{
+        display: none;
+    }
 
 }
 
@@ -681,6 +769,10 @@
         display: none;
     }
     .specific-hide2{
+        display: none;
+    }
+    /* responsive for group sales page */
+    .group-image-small{
         display: none;
     }
 

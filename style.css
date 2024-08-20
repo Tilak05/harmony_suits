@@ -463,7 +463,7 @@ footer{
     width: 250px;
 }
 
-.collapse-div li label{
+.co-label{
     display: flex;
     align-items: center;
     padding: 10px;
@@ -475,7 +475,7 @@ footer{
     content: initial;
 }
 
-label::before{
+.co-label::before{
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f103";
@@ -498,12 +498,12 @@ input[type="checkbox"]{
     transition: all 0.5s;
 }
 
-.collapse-div input[type="checkbox"]:checked + label + .content{
+.collapse-div input[type="checkbox"]:checked + .co-label + .content{
     max-height: max-content;
     padding: 10px 10px 20px;
 }
 
-.collapse-div input[type="checkbox"]:checked + label::before{
+.collapse-div input[type="checkbox"]:checked +.co-label::before{
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f102";
@@ -609,4 +609,113 @@ input[type="checkbox"]{
 .row-button:hover{
     background-color: #F3B16A;
     transition: all 0.3s;
+}
+
+/* style for group sales pages */
+
+.group-images{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: max-content;
+}
+.group-images img{
+    width: 70vh;
+    height: 50vh;
+    border-radius: 3px;
+    margin-left: 30%;
+}
+
+.group-content{
+    display: flex;
+    gap: 15%;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.group-form-matter p{
+    text-align: justify;
+    color: #000000;
+    font-family: "Times New Roman", Sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.025em;
+    margin-right: 100px;
+}
+.group-form{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    /* justify-content: center; */
+}
+
+.group-input,select{
+    background-color: transparent !important;
+    color: #575757;
+    font-size: 23px;
+    font-family: "Source Sans Pro", Sans-serif;
+    padding: 0 10px !important;
+    width: 80%;
+    height: 45px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #aca89d;
+}
+.group-form select{
+    background-color: transparent !important;
+    color: #575757;
+    font-size: 23px;
+    font-family: "Source Sans Pro", Sans-serif;
+    padding: 0 10px !important;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #aca89d;
+}
+
+.group-input:focus{
+    border: 1px solid #aca89d;
+    outline: none;
+}
+.group-form select:focus{
+    border: 1px solid #aca89d;
+    outline: none;
+}
+
+.form-labels{
+    color: #575757;
+    font-size: 21px;
+    font-family: "Source Sans Pro", Sans-serif;
+    margin-top: -25px;
+}
+
+.form-submit{
+    font-family: "Source Sans Pro", Sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    background-color: #21253E;
+    border-radius: 0px 0px 0px 0px;
+    padding: 15px 0 15px 0;
+    color: #fff;    
+    border: 0;
+    width: 200px;
+    margin-left: 10%;
+    display: block;
+}
+
+.group-image-small{
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.group-image-small img{
+    width: 500px;
+    height: 300px;
 }
