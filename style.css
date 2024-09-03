@@ -36,6 +36,7 @@
     height: max-content;
     position: sticky;
     top: 10px;
+    z-index: 1;
 }
 
 .button1{
